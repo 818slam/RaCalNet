@@ -4,7 +4,7 @@
 
 RaCalNet is a novel framework for dense depth estimation using millimeter-wave (mmWave) radar and monocular RGB images, designed to eliminate the reliance on costly dense LiDAR supervision. Unlike previous methods that require dense pseudo ground-truth generated via multi-frame LiDAR fusion and interpolation, RaCalNet learns from sparse single-frame LiDAR, reducing supervision density to just ~1% while maintaining high accuracy.
 
-RaCalNet is composed of two main components<p align="center"> <img src="figs/system.pdf" alt="RaCalNet System Overview" width="80%"> </p>:
+RaCalNet is composed of two main components<p align="center"> <img src="./figs/system.pdf" alt="RaCalNet System Overview" width="80%"> </p>:
 
 🎯 Radar Recalibration Module
 Selects high-quality radar points and refines them through pixel-wise displacement learning, producing reliable, fine-grained depth priors.
@@ -19,7 +19,9 @@ Despite its minimal supervision, RaCalNet achieves superior visual quality
 
 This checklist outlines the planned public releases for the RaCalNet project.
 
-## ✅ Planned Releases
+✅ Planned Releases
+
+- [ ] 🏫 **Release our self-collected 4D mmWave radar dataset in campus scenes**
 
 - [ ] 📁 **Release the calibrated ZJU-4DRadarCam dataset**
   - Includes refined sensor extrinsics and consistent projection quality
