@@ -13,7 +13,8 @@ Selects high-quality radar points and refines them through pixel-wise displaceme
 📏 Metric Depth Optimization Module
 Uses the refined radar priors to calibrate monocular depth predictions by estimating scene-level scale and shift, yielding metrically accurate dense depth maps.
 
-Despite its minimal supervision, RaCalNet achieves superior visual quality
+<p align="center"> <img src="./figs/zju_result.png" alt="RaCalNet Qualitative Results" width="90%"> </p>
+Despite relying only on sparse supervision, RaCalNet produces high-quality depth maps with clear object contours and fine-grained geometric details, as shown in the qualitative example above.
 
 
 ## 2.RaCalNet Release Checklist
