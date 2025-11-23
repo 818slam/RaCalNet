@@ -23,7 +23,7 @@ This checklist outlines the planned public releases for the RaCalNet project.
 
 ✅ Planned Releases
 
-- [ ] 🏫 **Release our self-collected 4D mmWave radar dataset in campus scenes**
+- [√] 🏫 **Release our self-collected 4D mmWave radar dataset in campus scenes**
 
 - [ ] 📁 **Release the calibrated ZJU-4DRadarCam dataset**
   - Includes refined sensor extrinsics and consistent projection quality
@@ -35,3 +35,13 @@ This checklist outlines the planned public releases for the RaCalNet project.
 - [ ] 🧾 **Release pretrained model weights**
   - Trained on the calibrated ZJU-4DRadarCam dataset
   - Includes instructions for evaluation and benchmarking
+     
+## 3. Dataset Download
+
+We release the 4D mmWave radar dataset on Hugging Face.
+
+- Dataset name: `gubeisi/4ddataset`
+- Direct download (tar.gz, ~4.8 GB):  
+  https://huggingface.co/datasets/gubeisi/4ddataset/raw/main/dataset.tar.gz
+
+You can download `dataset.tar.gz` from the link above and extract it locally to reproduce our experiments.
